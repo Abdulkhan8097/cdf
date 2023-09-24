@@ -1,0 +1,172 @@
+Base Url: http://165.22.219.135/geniemoney/public/index.php
+
+
+//Generate OTP
+/appotp
+Method: post 
+Input:
+username: 1234556    // email or mobile number
+password: 1234
+
+Output:
+{"status":201,"error":null,"messages":{"success":"Otp generated successfully"},"otp":"1081"}
+
+
+//Login
+/applogin
+
+Method: post 
+Input:
+username: 1234556    // email or mobile number
+password: 1234
+otp:1234
+
+Output:
+{"status":201,"error":null,"messages":{"success":"Login successfully"},"userdetail":{"userid":"1","name":"Subedar ","email":"yadav@gmail.com","phone":"9819941589"}}
+
+
+//registration
+/appregister
+
+Method: post 
+Input:
+mobile_no: 1234556    //  mobile number
+email:
+password: 
+os: 
+phone_model:
+lat:
+long:
+install_location:
+code_name:
+
+
+Output:
+{"status":201,"error":null,"messages":{"success":"Login successfully"},"userdetail":{"userid":"1","name":"Subedar ","email":"yadav@gmail.com","phone":"9819941589"}}
+
+
+//Forgot password
+
+/appforgotpass
+Method: post 
+Input:
+username: 1234556    //  email or mobile number
+
+output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Password send successfully"
+    }
+}
+
+
+//Change password
+
+/appchangepass
+Method: post 
+Input:
+username: 1234556    //  email or mobile number
+password:
+
+output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Password send successfully"
+    }
+}
+
+
+//update passcode
+/appupdatepasscode
+Method: post 
+Input:
+userid: 2    //user unique id
+passcode: 2345
+altmobile: 988898789
+
+output:
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Data updated successfully"
+    }
+}
+
+// Company Authentication
+
+/appcompanylogin
+
+Method: post 
+Input:
+username: 1234556    // email or mobile number
+password: 1234
+otp:1234
+
+Output:
+{"status":201,"error":null,"messages":{"success":"Login successfully"},"userdetail":{"userid":"1","name":"Subedar ","email":"yadav@gmail.com","phone":"9819941589"}}
+
+
+//registration
+/appcompanyregister
+
+Method: post 
+Input:
+mobile_no: 1234556    //  mobile number
+email:
+password: 
+usertype:           //'superdistributer','distributer','retailer','employee'
+os: 
+phone_model:
+lat:
+long:
+install_location:
+
+
+Output:
+{"status":201,"error":null,"messages":{"success":"Login successfully"},"userdetail":{"userid":"1","name":"Subedar ","email":"yadav@gmail.com","phone":"9819941589"}}
+
+
+//Forgot password
+
+/appcompanyforgotpass
+Method: post 
+Input:
+username: 1234556    //  email or mobile number
+
+output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Password send successfully"
+    }
+}
+
+
+//Change password
+
+/appcompanychangepass
+Method: post 
+Input:
+username: 1234556    //  email or mobile number
+password:
+
+output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Password send successfully"
+    }
+}
+
+

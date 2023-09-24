@@ -1,0 +1,11 @@
+/writable/
+/vendor/
+app/Config/Database.php
+.env
+public/Testimonial
+public/Cases
+public/Cases/Document
+public/HomeBanner
+
+public/pdfcertificates/
+public/Volunteer

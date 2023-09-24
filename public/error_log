@@ -1,0 +1,16 @@
+[31-Jan-2023 13:47:42 Asia/Kolkata] PHP Deprecated:  Required parameter $userAgent follows optional parameter $body in /home/kokanngo/public_html/system/HTTP/IncomingRequest.php on line 161
+[31-Jan-2023 13:47:42 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/kokanngo/public_html/system/HTTP/IncomingRequest.php:161) in /home/kokanngo/public_html/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/kokanngo/...', 164)
+#1 /home/kokanngo/public_html/system/Debug/Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home/kokanngo/public_html/system/Debug/Exceptions.php on line 164
+[31-Jan-2023 12:57:27 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11
+[31-Jan-2023 12:57:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kokanngo/public_html/app/Config/Settingconstant.php on line 11

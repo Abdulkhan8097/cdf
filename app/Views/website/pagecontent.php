@@ -1,0 +1,1 @@
+<?php echo $pageDetail['cat_pagecontent']; ?>
